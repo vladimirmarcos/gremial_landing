@@ -79,7 +79,10 @@ h1 {
 .preguntas-frecuentes{
     height: 800px;
 }
-
+.ne0{
+    height: 294 px;
+    width:  92px;
+}
 /*noticias*/
 .noticias{
     height: 500px;
