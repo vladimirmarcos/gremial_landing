@@ -76,7 +76,9 @@ h1 {
     color: #615151;
 }
 
-
+.preguntas-frecuentes{
+    height: 800px;
+}
 
 /*noticias*/
 .noticias{
@@ -173,7 +175,7 @@ h1 {
 .contacto button:hover i{
 
     color: black;
-    
+
 }
 .contacto button i{
     color: white;
