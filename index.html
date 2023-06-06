@@ -26,17 +26,17 @@
 <body>
 <!-- Navbar-->
 
-<nav class="navbar navbar-expand-md navbar-light">
+<nav class="navbar navbar-expand-md navbar-dark bg-primary ">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbar-toggler">
-        <a class="navbar-brand" href="#">Hidden brand</a>
+        <a class="navbar-brand" href="#"></a>
         <!-- poner imagen 2 horas 29 minutos-->
         <ul class="navbar-nav d-flex justify-content-center align-item-center">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          <li class="nav-item texto-blanco">
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">AMEPP</a>
@@ -54,27 +54,11 @@
   </nav>
  <!-- Fin Navbar-->
 <!--seccion Hero-->
-<section class="hero align-item-stretch">
-    <div class="hero-principal d-flex flex-column justify-content-center align-item-center">
-        <img class="hero-img-desarrollador" src="Img/images.png" alt="imagen de pepe">
-        <h1>Hola es la seccion principal</h1>
-        <h2>esto usaria para el nosotros</h2>
 
-    </div>
-
-</section>
 
 <!--Fin seccion Hero-->
 <!-- noticias-->
-<section class="noticias seccion-oscura">
-<div class="contenedor">
-  <h2 class="seccion-titulo">Noticias sobre ...</h2>
-  <p class="seccion-texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, saepe consectetur quaerat illum eos dignissimos repellat culpa quidem dolore obcaecati 
-    sit accusantium explicabo sequi maxime sunt quas dicta, nulla sed.</p>
 
-</div>
-
-</section>
 <!-- Fin noticias-->
 
 <!--Experiencia-->
@@ -97,6 +81,77 @@
 </section>
 
 <!--Fin Experiencia-->
+<!--Proyectos-->
+<section class="proyectos-recientes seccion-clara d-flex flex-column">
+  <h2 class="seccion-titulo texto-negro">Noticias </h2>
+  <h3 class="seccion-descripcion">estas algunas noticias</h3>
+</section>
+<!--Carrusel :D -->
+<section class="ultimas-noticias seccion-clara">
+<!--Carrusel en si -->
+<div id="noticias-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Img/merlo.jpg.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Img/termas.jpg.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Img/valleluna.jpg.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#noticias-carrusel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#noticias-carrusel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</section>
+<!--Fin Carrusel :D -->
+<!--Proyectos-->
+<!--contacto -->
+<section class="contacto seccion-oscura">
+  <div class=" container">
+    <div class="container  text-center rectangulo d-flex justify-content-evenly">
+      <div class="row">
+        <div class="col-12 col-md-3 seccion-titulo">
+         ¡¡¡ Contactanos !!!
+        </div>
+        <div class="col-12 col-md-3 ">
+          <a href="https://www.instagram.com/adepp_amepp_sj/" target="_blank">
+            <button type="submit">
+                Instagram
+                <i class="bi bi-instagram"></i>
+            </button>
+          </a>
+        </div>
+        <div class="col-12 col-md-3">
+            <a href="mailto:vlad@gmail.com">
+              <button type="submit">
+                  Correo
+                  <i class="bi bi-envelope-check-fill"></i>
+              </button>
+            </a>
+        </div>
+        <div class="col-12 col-md-3 ">
+          <a href="https://www.facebook.com/people/ADEPP-AMEPP-SJ/100093200617892/" target="_blank">
+            <button type="submit">
+                Facebook
+                <i class="bi bi-facebook"></i>
+            </button>
+          </a>
+        </div>
+      </div>
+  </div>
+  </div>
+
+</section>
+
+<!--Fin contacto -->
 <!--Boostrap J.S.-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
