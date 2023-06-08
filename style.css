@@ -76,13 +76,10 @@ h1 {
     color: #615151;
 }
 
-.preguntas-frecuentes{
+/*.preguntas-frecuentes{
     height: 800px;
-}
-.ne0{
-    height: 294 px;
-    width:  92px;
-}
+}*/
+
 /*noticias*/
 .noticias{
     height: 500px;
@@ -133,10 +130,14 @@ h1 {
 .ultimas-noticias .carousel{
     max-width: 800px;
 }
-.carousel-item{
+/*.carousel-item{
     height: 500px;
+    width: auto;
 }
 /*fin testimonios*/
+.preguntas-frecuentes .container .row .columna i{
+    object-fit: contain;
+}
 /*contacto*/
 
 .contacto .contenedor{
