@@ -76,9 +76,9 @@ h1 {
     color: #615151;
 }
 
-/*.preguntas-frecuentes{
+.preguntas-frecuentes{
     height: 800px;
-}*/
+}
 
 /*noticias*/
 .noticias{
@@ -192,6 +192,9 @@ h1 {
     .navbar-brand{
         display: none;
     }
-  
+    .preguntas-frecuentes{
+        height: 900px;
+    }
 
 }
+
