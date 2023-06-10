@@ -4,6 +4,10 @@
     padding: 2rem;
     background-color: #f5f6f7;
 }
+.navbar img {
+    max-width: 50px;
+    max-width: 50px;
+}
 
 .navbar-collapse{
     align-items: center;
@@ -144,7 +148,37 @@ h1 {
     max-width: 1100px;
     min-height: 200px ;
     padding: 20px;
-}/*
+}
+
+.talleres-afiliados .card img{
+	
+	max-height:400px;
+}
+.servicios-afiliados .card img{
+	
+	max-height: 500px;
+    max-width: auto;
+}
+
+.talleres-afiliados .card {
+    max-width: 1000px;
+    
+}
+
+/*
+.servicios-afiliados .card {
+    max-height: 800px;
+}
+
+.talleres-afiliados .card {
+    max-height: 800px;
+    
+}
+
+
+
+/*
+
 .contacto .rectangulo{
 
     margin-top: -5rem;
