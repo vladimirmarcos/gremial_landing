@@ -119,6 +119,13 @@ h1 {
     font-weight: bold;
     margin: 10px 0;
 }
+.experiencia img {
+    max-width: 200px;
+    max-height: 200px;
+}
+.experiencia SMI {
+    max-height: 100px;
+}
 /*Fin experiencia*/
 /*proyecto*/
 .proyectos-recientes{
@@ -134,10 +141,7 @@ h1 {
 .ultimas-noticias .carousel{
     max-width: 800px;
 }
-/*.carousel-item{
-    height: 500px;
-    width: auto;
-}
+
 /*fin testimonios*/
 .preguntas-frecuentes .container .row .columna i{
     object-fit: contain;
@@ -165,27 +169,16 @@ h1 {
     
 }
 
-/*
-.servicios-afiliados .card {
-    max-height: 800px;
-}
+/*comercios adheridos
+.experiencia .seccion-clara .preguntas-frecuentes .container .row img {
 
-.talleres-afiliados .card {
-    max-height: 800px;
-    
+    max-width: 200px;
+    max-height: 200px;
 }
 
 
 
-/*
-
-.contacto .rectangulo{
-
-    margin-top: -5rem;
-    background-color: rgb(13, 110, 253);
-    border-radius: 10px;
-    box-shadow: 0px 1px 4px 1px white;
-}*/
+/*fin comercios adheridos*/
 .contacto .row{
     width: 100%;
     display: flex;
@@ -226,9 +219,7 @@ h1 {
     .navbar-brand{
         display: none;
     }
-    .preguntas-frecuentes{
-        height: 900px;
-    }
+   
 
 }
 
