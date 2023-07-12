@@ -72,8 +72,13 @@ h1 {
     background-color: #f5f6f7;
     min-height: 450px;
     text-align: center;
+    
 }
+.hero .edictos p{
+ align-items: start;
+ text-align: justify;
 
+}
 
 .hero-principal h2{
     font-size: 1.5rem;
