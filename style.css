@@ -158,11 +158,11 @@ h1 {
     min-height: 200px ;
     padding: 20px;
 }
-
+/*
 .talleres-afiliados .card img{
 	
 	max-height:400px;
-}
+}*/
 .servicios-afiliados .card img{
 	
 	max-height: 500px;
@@ -170,10 +170,14 @@ h1 {
 }
 
 .talleres-afiliados .card {
-    max-width: 1000px;
+    max-width: 100vh;
     
 }
 
+.talleres-afiliados img {
+    width: 100%;
+display: block;
+}
 /*comercios adheridos
 .experiencia .seccion-clara .preguntas-frecuentes .container .row img {
 
