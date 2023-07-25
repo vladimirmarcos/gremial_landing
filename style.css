@@ -177,6 +177,16 @@ h1 {
     
 }
 
+.noticias-amepp{
+    min-width: 100vh;
+    max-height: 100vh;
+    
+}
+.noticias-amepp .card{
+    min-width: 100vh;
+    min-height: 100vh;
+}
+
 .talleres-afiliados img {
     width: 100%;
 display: block;
